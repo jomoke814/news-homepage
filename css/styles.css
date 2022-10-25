@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-bg-color: hsl(36, 100%, 99%);
+    --main-headings-color: hsl(240, 100%, 5%);
+    --main-heading2-color: hsl(35, 77%, 62%);
+    --main-text-color: hsl(233, 8%, 79%);
+    --main-btn-color: hsl(5, 85%, 63%);
+    --main-line-color: hsl(236, 13%, 42%);
+}
