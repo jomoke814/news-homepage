@@ -169,3 +169,31 @@ hr {
     text-align: center;
     font-size: 11px;
 }
+
+/* media queries */
+@media (max-width: 1200px) {
+   .container {
+    display: block;
+    margin-top: 20px;
+   }
+
+   .web-3 {
+    width: 100%;
+   }
+}
+
+@media (max-width: 780px) {
+    .hero-secondary {
+        display: block;
+    }
+    .web-3 {
+        background-image: url('../images/image-web-3-mobile.jpg');
+    }
+    .hero-secondary h1, .hero-secondary .para {
+        width: 100%;
+    }
+    .article {
+        display: flex;
+        flex-direction: column;
+    }
+}
