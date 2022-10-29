@@ -54,10 +54,17 @@ h3 {
 
 header {
     background-color: var(--main-bg-color);
+    /* position: fixed;
+    top: 0;
+    width: 100%; */
 }
 
 li {
     list-style-type: none;
+}
+
+.logo {
+    margin-left: 30px;
 }
 
 .navbar {
@@ -112,6 +119,10 @@ li {
 
 .web-3 {
     width: 900px;
+}
+
+.hero {
+    margin-bottom: 10px;
 }
 
 .hero-secondary {
@@ -170,6 +181,7 @@ hr {
     display: flex;
     justify-content: space-between;
     grid-column: 1/3;
+    margin-top: 10px;
 }
 
 .article-card {
@@ -225,38 +237,17 @@ hr {
 
     .nav-menu {
         position: fixed;
-        left: -500px;
-        top: 70px;
-        gap: 0;
-        flex-direction: column;
-        background-color: var(--main-bg-color);
-        width: 100%;
+        right: -500px;
         transform: 0.3s;
+        background: var(--main-bg-color);
     }
 
     .nav-item {
-        margin: 16px 0;
+        position: relative;
+        top: 30%;
     }
 
     .nav-menu.active {
-        left: 0;
-    }
-
-    /* #hamburger-menu {
-        display: block;
-        background: none;
-        outline: none;
-        cursor: pointer;
-    }
-
-    .nav #hamburger-close {
-        display: block;
-        position: absolute;
-        right: 1.2rem;
-        cursor: pointer;
-    }
-
-    .nav {
         display: flex;
         flex-direction: column;
         position: absolute;
@@ -265,23 +256,20 @@ hr {
         bottom: 0;
         padding: 1.25rem;
         width: 50vw;
-        background: var(--main-bg-color);
     }
-    .nav li {
-        position: relative;
-        top: 30%;
-        font-size: 1.25rem;
-    } */
 
     .hero-secondary {
         display: block;
     }
+
     .web-3 {
         background-image: url('../images/image-web-3-mobile.jpg');
     }
+
     .hero-secondary h1, .hero-secondary .para {
         width: 100%;
     }
+
     .article {
         display: flex;
         flex-direction: column;
