@@ -188,6 +188,7 @@ hr {
     display: flex;
     margin: 10px;
     gap: 10px;
+    width: 28%;
 }
 
 .description {
